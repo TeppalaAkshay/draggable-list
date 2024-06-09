@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import DraggableList from '../components/DraggableList'; // Adjusted import path
+import DraggableList from '../components/DraggableList';
 
 const Home = () => {
   return (
