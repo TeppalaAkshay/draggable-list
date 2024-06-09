@@ -1,11 +1,11 @@
-// pages/index.js
+
+
 import React from 'react';
-import DraggableList from '../components/DraggableList';
+import DraggableList from '../components/DraggableList'; // Adjusted import path
 
 const Home = () => {
   return (
-    <div>
-      <h1>Draggable List</h1>
+    <div className="container mx-auto p-4">
       <DraggableList />
     </div>
   );
